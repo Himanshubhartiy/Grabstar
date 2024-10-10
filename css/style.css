@@ -1,0 +1,341 @@
+:root {
+    /* Green */
+    --primary: #3EE8B5;
+    /* Purple */
+    --secondary: #906CF9;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+/* Headings */
+h1,
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 64px;
+    color: #F4F8FD;
+}
+
+h2 {
+    font-size: 48px;
+    color: #263959;
+    max-width: 530px;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #263959;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+h6 {
+    font-size: 16px;
+    color: #263959A6;
+}
+
+p {
+    font-size: 16px;
+    color: #263959A6;
+}
+
+span {
+    font-weight: 600;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+h5 {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+/* nav */
+nav.black {
+    background-color: rgb(0, 0, 0);
+    transition: 2s;
+}
+
+/* banner */
+.bg-image {
+    margin-bottom: 100px;
+    background-image: url('../img/Homepage-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 786px;
+    /* height: 100vh; */
+}
+
+.banner {
+    background-color: #263959;
+}
+
+.nav-link {
+    color: #ffffffe5;
+}
+
+.nav-link:hover {
+    color: #3EE8B5;
+}
+
+.hire-clients {
+    margin-top: 200px;
+}
+
+.social-wrap .si-freelancer {
+    left: 80px;
+    top: 260px;
+}
+
+.social-wrap .si-insta {
+    right: -100px;
+    top: 150px;
+}
+
+.social-wrap .si-messenger {
+    right: 420px;
+    top: 550px;
+}
+
+.social-wrap .si-client {
+    right: -120px;
+    top: 650px;
+}
+
+.account-button {
+    background-color: #f1f1f183;
+    color: #FFFFFF;
+}
+
+.account-button:hover {
+    background-color: #3EE8B5;
+    color: #FFFFFF;
+}
+
+
+/* buttons */
+.btn-primary {
+    font-weight: 600;
+    font-size: 16px;
+    width: 203px;
+    height: 65px;
+    color: #263959;
+    background-color: var(--primary);
+    border: none;
+}
+
+/* Our amazing Features Helpfull for your Business */
+.amazing-Features .lines-wrap {
+    right: 0%;
+    top: 55%;
+}
+
+.amazing-Features {
+    margin-bottom: 120px;
+}
+
+.business-review {
+    max-width: 500px;
+}
+
+.features {
+    max-width: 290px;
+}
+
+/* Explore the Marketplace */
+.explore-marketplace {
+    padding: 100px 0;
+    margin-bottom: 80px;
+}
+
+.explore-marketplace::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 24%;
+    background-color: #eff1fd;
+    z-index: -1;
+}
+
+.explore-marketplace .dots-wrap {
+    left: 310px;
+    top: -30px;
+}
+
+.marketplace-card {
+    max-width: 330px;
+    height: 175px;
+    margin-left: 70px;
+}
+
+.card {
+    background-color: #FFFFFF;
+    width: 220px;
+    height: 200px;
+    border: none;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.card:hover {
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+
+.card-success {
+    background-color: #263959;
+    padding: 30px;
+}
+
+.image {
+    align-self: center;
+}
+
+.categories-text {
+    max-width: 175px;
+}
+
+
+/* Collect Reviews from Your Existing Clients. */
+.collect-reviews .curve-line {
+    left: 0;
+    bottom: 60%;
+    z-index: -1;
+}
+
+.collect-reviews .invetation-card {
+    right: 30%;
+    top: 57%;
+}
+
+.existing-clients {
+    max-width: 443px;
+}
+
+.collect-reviews {
+    margin-bottom: 200px;
+}
+
+/* Hire Our Top Rated Freelancer */
+.hire-freelancer {
+    background-color: #263959;
+    /*padding-top:40px;padding-bottom:50px;*/
+}
+
+.top-freelancer {
+    max-width: 460px;
+    color: #FFFFFF;
+}
+
+.rated-freelancer {
+    max-width: 411px;
+    color: #FFFFFFA6;
+}
+
+.hire-freelancer .snake-lines {
+    z-index: -1;
+}
+
+/* Check Out Recent Review */
+.recent-review {
+    padding: 150px 0;
+}
+
+.recent-review .Check-lines {
+    z-index: -1;
+    left: 0;
+    bottom: -20px;
+}
+
+.check-review {
+    max-width: 380px;
+}
+
+.carousel-indicators {
+    left: 0;
+    top: auto;
+    bottom: -70px;
+    z-index: auto;
+}
+
+.carousel-indicators .circle-button {
+    background: #906CF94F;
+    border-radius: 100%;
+    width: 20px;
+    height: auto;
+}
+
+.carousel-indicators .active {
+    background: #906CF9;
+}
+
+.review-card {
+    max-width: 377px;
+    background-color: #ffffff;
+}
+
+/* .review-card p { margin-top:0;margin-bottom:0;} */
+
+/* Footer */
+.footer .dots-group {
+    right: 10px;
+    top: -40px;
+}
+
+.footer .zigzag-lines {
+    bottom: 0;
+}
+
+.footer {
+    background-color: #EFF1FD;
+}
+
+.about-company {
+    padding: 120px 0;
+}
+
+.grabstar-logo {
+    max-width: 170px;
+}
+
+.copyright-ofspace {
+    font-size: 12px;
+    color: #26395999;
+}
+
+.footer p:hover {
+    color: #000000;
+}
+
+.social-image {
+    background-color: #FFFFFF;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 12px 30px 0 rgba(0, 0, 0, 0.08);
+}
+
+.social-image svg path {
+    fill: #263959;
+}
+
+.social-image:hover {
+    background-color: #263959;
+}
+
+.social-image:hover svg path {
+    fill: #FFFFFF;
+}
